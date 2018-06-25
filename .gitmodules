@@ -10,3 +10,9 @@
 [submodule "applications/status-react"]
 	path = applications/status-react
 	url = https://github.com/status-im/status-react.git
+[submodule "libraries/re-frame"]
+	path = libraries/re-frame
+	url = https://github.com/Day8/re-frame.git
+[submodule "applications/maria"]
+	path = applications/maria
+	url = https://github.com/mhuebert/maria
