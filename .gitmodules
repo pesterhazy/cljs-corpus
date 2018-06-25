@@ -1,3 +1,9 @@
 [submodule "reagent"]
 	path = libraries/reagent
 	url = https://github.com/reagent-project/reagent.git
+[submodule "applications/vimsical"]
+	path = applications/vimsical
+	url = https://github.com/vimsical/vimsical.git
+[submodule "libraries/bidi"]
+	path = libraries/bidi
+	url = https://github.com/juxt/bidi.git
