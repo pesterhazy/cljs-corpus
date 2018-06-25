@@ -19,3 +19,9 @@
 [submodule "libraries/om"]
 	path = libraries/om
 	url = https://github.com/omcljs/om.git
+[submodule "applications/frontend"]
+	path = applications/frontend
+	url = https://github.com/circleci/frontend.git
+[submodule "applications/precursor"]
+	path = applications/precursor
+	url = https://github.com/PrecursorApp/precursor.git
