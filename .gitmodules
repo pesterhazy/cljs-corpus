@@ -16,3 +16,6 @@
 [submodule "applications/maria"]
 	path = applications/maria
 	url = https://github.com/mhuebert/maria
+[submodule "libraries/om"]
+	path = libraries/om
+	url = https://github.com/omcljs/om.git
