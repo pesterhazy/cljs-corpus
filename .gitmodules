@@ -7,3 +7,6 @@
 [submodule "libraries/bidi"]
 	path = libraries/bidi
 	url = https://github.com/juxt/bidi.git
+[submodule "applications/status-react"]
+	path = applications/status-react
+	url = https://github.com/status-im/status-react.git
