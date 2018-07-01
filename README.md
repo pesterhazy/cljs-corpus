@@ -22,6 +22,12 @@ cd cljs-corpus
 git submodule update --init --recursive
 ```
 
+Each time `git pull` you will need to update the submodules again:
+
+```
+git submodule update --init --recursive
+```
+
 The corpus currently weighs in at >300M so give this some time to complete.
 
 ## Example queries
