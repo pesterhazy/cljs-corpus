@@ -1,20 +1,24 @@
 # ClojureScript corpus
 
-A collection of high-quality ClojureScript code with high greppability.
+In linguistics, a text corpus is a set of written texts in a given language, collected to be analyzed to test hypothesis about the language.
 
-The OSS projects referenced in this reposiory have been selected because they solve a variety of problems and contain high-quality code.
+Similarly, the aim of cljs-corpus is to provide a searchable archive of ClojureScript code in the wild.
 
-- Usage examples: find how libraries and Browser APIs are used in real code
-- Inspiration: find out how others approach problems
-- Remember: remind yourself of the use of ClojureScripts standard library
+What does this give you over tools like Github Code Search?
+
+- Curation: The projects have been selected to exhibit high standards of quality
+- It's All Text: Because the archive is on your machine, you can use text search tools like grep or ripgrep to narrow down searches.
+- Reliability: Compared to Github's fuzzy search, grep is predictable and allows exact string searches as well as regular expression.
+
+cljs-corpus contains popular OSS libraries. But in recognition of the fact that application code is different from library code it also includes real-world applications.
 
 ## Usage
 
-Clone this repository
-
-Check out the submodules:
+Clone this repository and update the submodules:
 
 ```
+git clone https://github.com/pesterhazy/cljs-corpus.git
+cd cljs-corpus
 git submodule update --init --recursive
 ```
 
