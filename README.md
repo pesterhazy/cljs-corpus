@@ -4,10 +4,10 @@ In linguistics, a text corpus is a set of written texts in a given language, col
 
 Similarly, the aim of cljs-corpus is to provide a searchable archive of ClojureScript code in the wild.
 
-What does this give you over tools like Github Code Search?
+Why would you use this over tools like [Github Code Search](https://github.com/search/advanced)?
 
 - Curation: The projects have been selected to exhibit high standards of quality
-- It's All Text: Because the archive is on your machine, you can use text search tools like grep or ripgrep to narrow down searches.
+- It's All Text: Because the full text is on your machine, you can use text search tools like grep or [ripgrep](https://github.com/BurntSushi/ripgrep) to refine your search.
 - Reliability: Compared to Github's fuzzy search, grep is predictable and allows exact string searches as well as regular expression.
 
 cljs-corpus contains popular OSS libraries. But in recognition of the fact that application code is different from library code it also includes real-world applications.
@@ -32,22 +32,22 @@ The corpus currently weighs in at >300M so give this some time to complete.
 
 ## Example queries
 
-Install [ripgrep](https://github.com/BurntSushi/ripgrep). It's fast and reliable.
+For the best search experience, install [ripgrep](https://github.com/BurntSushi/ripgrep). It's fast and reliable.
 
-Find usage of the Google Closure Library
+1. Find creative use of the Google Closure Library
 
-```
-rg -w goog
-```
+    ```
+    rg -w goog
+    ```
 
-How do I use LocalStorage from ClojureScript?
+1. How do people use LocalStorage from ClojureScript?
 
-```
-rg -w localstorage
-```
+    ```
+    rg -w localstorage
+    ```
 
-How does do I join a collection into a string again?
+1. I can't remember the order of arguments for clojure.string/join
 
-```
-rg -w join
-```
+    ```
+    rg -C3 -g '*.clj[sc]' -w join
+    ```
