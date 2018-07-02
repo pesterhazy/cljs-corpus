@@ -28,3 +28,9 @@
 [submodule "applications/asciinema-player"]
 	path = applications/asciinema-player
 	url = https://github.com/asciinema/asciinema-player.git
+[submodule "applications/LightTable"]
+	path = applications/LightTable
+	url = https://github.com/LightTable/LightTable.git
+[submodule "applications/devcards"]
+	path = applications/devcards
+	url = https://github.com/bhauman/devcards.git
