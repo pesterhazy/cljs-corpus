@@ -40,3 +40,6 @@
 [submodule "libraries/dommy"]
 	path = libraries/dommy
 	url = https://github.com/plumatic/dommy.git
+[submodule "applications/sulolive"]
+	path = applications/sulolive
+	url = https://github.com/eponai/sulolive.git
