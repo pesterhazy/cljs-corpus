@@ -10,7 +10,7 @@ Why would you use a local archive over tools like [Github Code Search](https://g
 - It's All Text: Because the full text is present on your machine, you can use text search tools like grep or ripgrep to refine your search.
 - Reliability: Compared to Github's fuzzy search, grep is predictable and allows exact string maches as well as regular expression queries.
 
-The corpus contains popular OSS libraries. But recognizing the differences between application code and library code the archive also puts a focus on real-world applications written in ClojureScript.
+This corpus contains popular OSS [libraries](libraries/). But recognizing the differences between application code and library code the archive also puts a focus on real-world [applications](applications/) written in ClojureScript.
 
 ## Usage
 
