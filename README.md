@@ -22,7 +22,7 @@ cd cljs-corpus
 git submodule update --init --recursive
 ```
 
-Each time `git pull` you will need to update the submodules again:
+Each time you `git pull` you will need to update the submodules again:
 
 ```
 git submodule update --init --recursive
@@ -56,3 +56,7 @@ For the best search experience, install [ripgrep](https://github.com/BurntSushi/
 
 - [CrossClj](https://crossclj.info/)
 - [Coal mine](https://github.com/mfikes/coal-mine)
+
+## Author
+
+Paulus Esterhazy <pesterhazy@gmail.com>
