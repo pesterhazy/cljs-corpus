@@ -34,3 +34,6 @@
 [submodule "applications/devcards"]
 	path = applications/devcards
 	url = https://github.com/bhauman/devcards.git
+[submodule "applications/unravel"]
+	path = applications/unravel
+	url = https://github.com/Unrepl/unravel.git
