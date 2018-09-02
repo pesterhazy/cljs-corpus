@@ -43,3 +43,12 @@
 [submodule "applications/sulolive"]
 	path = applications/sulolive
 	url = https://github.com/eponai/sulolive.git
+[submodule "applications/netrunner"]
+	path = applications/netrunner
+	url = https://github.com/mtgred/netrunner.git
+[submodule "applications/goya"]
+	path = applications/goya
+	url = https://github.com/jackschaedler/goya.git
+[submodule "applications/wordsmith"]
+	path = applications/wordsmith
+	url = https://github.com/yuhama/wordsmith.git
