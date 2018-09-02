@@ -19,13 +19,13 @@ Clone this repository and update its submodules:
 ```
 git clone https://github.com/pesterhazy/cljs-corpus.git
 cd cljs-corpus
-git submodule update --init --recursive
+git submodule update --init
 ```
 
 Each time you `git pull` you will need to update the submodules again:
 
 ```
-git submodule update --init --recursive
+git submodule update --init
 ```
 
 The corpus currently weighs in at >300M so give this some time to complete.
