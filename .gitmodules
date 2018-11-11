@@ -52,3 +52,6 @@
 [submodule "applications/wordsmith"]
 	path = applications/wordsmith
 	url = https://github.com/yuhama/wordsmith.git
+[submodule "libraries/datascript"]
+	path = libraries/datascript
+	url = https://github.com/tonsky/datascript.git
